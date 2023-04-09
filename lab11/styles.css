@@ -1,0 +1,44 @@
+body{
+    background-color:#f0f8f0;
+    color: #bd11bd;
+}
+p {
+    color: #e8791e;
+}
+
+a:visited{
+    color:#397cbb;
+}
+a:hover{
+    color:#97b07e;
+}
+h1{
+    color:#6966d4;
+}
+
+nav{
+    background-color:#e08e79;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a{
+    color:#ff00ff;
+}
+nav a:visited{
+    color:#02173d;
+}
+nav a:hover{
+    background-color:#25e1c2;
+}
+
+@media only screen and (max-width:600px) {
+    
+    nav a {display:block;
+           margin:10px;}
+    span {display:none;}
+    
+}
+@media only screen and (min-width:601px) {
+    
+    
+}
