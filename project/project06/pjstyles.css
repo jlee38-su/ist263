@@ -16,6 +16,10 @@ a:hover{
     background-color: #2b3d4f;
 }
 
+span {
+    color: white;
+}
+
 .sbeef1{
     display: block; 
     margin: 10px;
