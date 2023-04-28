@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comfortaa&display=swap" rel="stylesheet">
+        <title>Pork Cuts</title>
+        <link rel="stylesheet" href="pjstyles.css">
+        <script>
+            function showNav() {
+                document.getElementById("nav").style.display = "block";
+            }
+            function hideNav() {
+                document.getElementById("nav").style.display = "none";
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div>
+                <img src="../images/menu.png" alt="drop down" id="micon" onclick="showNav();">
+            </div>
+            <div>
+                <p id="close" onclick="hideNav();">x</p>
+            </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <a href="home.html"><strong>Home: Korean BBQ</strong></a>
+            <a href="porkcuts.html"><strong>Popular Pork Cuts</strong></a>
+            <a href="beefcuts.html"><strong>Popular Beef Cuts</strong></a>
+        </nav>
+
+        <section>
+            <header>
+                <h1>Popular Pork Cuts</h1>
+            </header>
+    
+            <article>
+                <div class="sec1">
+                    <div class="imageflex1">
+                        <img src="../images/5.jpg" alt="Pork Belly" class="img1">
+                    </div>
+                    <div class="expflex1">
+                        <h3>1. Sam-Gyeob-Sal (삼겹살) - Pork Belly</h3>
+                        <p>Pork Belly is the most popular cut of pork in Korean BBQ. The distinctive feature of the cut is that it has 
+                            layers of fat and meat which makes it very succulent. Because it is a fatty cut, it needs to be grilled until 
+                            well-done. You would definitely want to choose this cut if you are a first-timer because it is easy to grill.</p>
+                    </div>
+                </div>
+            </article>
+    
+            <article>
+                <div class="sec2">
+                    <div class="expflex2">
+                        <img src="../images/6.jpg" alt="Pork Neck" class="img2">
+                    </div>
+                    <div class="imageflex2">
+                        <h3>2. Hang-Jeong-Sal (항정살) - Pork Neck</h3>
+                        <p>Pork Neck is another fatty cut of pork in Korean BBQ. The distinctive feature of the cut is that it has 
+                            similar marbling of beef. Also, unlike other cuts, it has a little bit of a flaky texture. This cut is also very 
+                            fatty, so it needs to be grilled until well-done.</p>
+                    </div>
+                </div>
+            </article>
+    
+            <article>
+                <div class="sec1">
+                    <div class="imageflex1">
+                        <img src="../images/7.jpg" alt="Pork Blade" class="img1">
+                    </div>
+                    <div class="expflex1">
+                        <h3>3. Mok-Sal (목살) - Pork Blade</h3>
+                        <p>Pork Blade is a famous cut that has less fat than the two cuts shown above. The distinctive feature of 
+                            this cut is that it has both soft and chewy textures. This cut is preferred by people who dislike the fat on 
+                            the meat. This cut should be grilled to medium.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <header>
+                <h1>Restaurant Recommendation</h1>
+            </header>
+            
+            <div class="resrec">
+                <div>
+                    <h3>Korea - Hanam Dweji</h3>
+                    <div class="vid">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/X4mdBNITcpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div>
+                    <h3>NewYork - Baekjeong NYC</h3>
+                    <div class="vid">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Pu47Tx-wN_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <hr> Jooho Lee
+            <div class= "button">
+                <form action="home.html">
+                    <button type="submit" data-inline="true">Home: Korean BBQ</button>
+                </form>
+                <form action="beefcuts.html">
+                    <button type="submit">Popular Cuts BEEF</button>
+                </form> 
+            </div>
+        </footer>
+    </body>
+</html>

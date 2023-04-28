@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comfortaa&display=swap" rel="stylesheet">
+        <title>Home: Korean BBQ</title>
+        <link rel="stylesheet" href="pjstyles.css">
+        <script>
+            function showNav() {
+                document.getElementById("nav").style.display = "block";
+            }
+            function hideNav() {
+                document.getElementById("nav").style.display = "none";
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div>
+                <img src="../images/menu.png" alt="drop down" id="micon" onclick="showNav();">
+            </div>
+            <div>
+                <p id="close" onclick="hideNav();">x</p>
+            </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <a href="home.html"><strong>Home: Korean BBQ</strong></a>
+            <a href="porkcuts.html"><strong>Popular Pork Cuts</strong></a>
+            <a href="beefcuts.html"><strong>Popular Beef Cuts</strong></a>
+        </nav>
+
+        <h1>What is Korean BBQ</h1>
+
+        <div class="kbbq">
+            <div class="child1">
+                <img src="../images/1.jpg" alt="kbbq1" class="img1">
+            </div>
+            
+            <div class="child2">
+                <p>You are seriously missing out if you haven't experienced Korean BBQ yet! Here is a beginner's guide to 
+                    ordering Korean BBQ like an expert if you are hesitant to give it a try.</p>
+                <p>Korean BBQ is a famous technique in Korean cooking for grilling meat, usually pork and beef. What 
+                    makes Korean BBQ interesting is that the food is prepared on charcoal grills that are built into each 
+                    dining table. One of the advantages of having a built-in grill is that it keeps the meat warm and juicy. If 
+                    you are a first-timer, you are in for a treat because that first bite will blow your mind! Any meat that 
+                    came right out of the fire tastes the best.</p>
+                <p>Another advantage of a built-in grill is that eating becomes 
+                    exciting. Korean BBQ is all about the experience. Grilling together and sharing adds so much fun to the 
+                    dining experience. If you have read this far and it is still difficult to picture what it’s like, think of it as an 
+                    intimate and private hibachi experience.</p>
+            </div>
+        </div>
+
+        <h2>Not a first-timer? Skip to Meat Recommendation!</h2>
+
+        <div class="sec3">
+            <div class="skip1">
+                <form action="porkcuts.html">
+                    <button type="submit" class="skipb"><strong><u>CLICK ME - Popular Cuts: PORK</u></strong></button>
+                 </form>
+            </div>
+            <div class="skip1">
+                <form action="beefcuts.html">
+                    <button type="submit" class="skipb"><strong><u>CLICK ME - Popular Cuts: BEEF</u></strong></button>
+                 </form>
+            </div>
+        </div>
+
+         <h2>Here are a few tips for the first-timers!</h2>
+         <article>
+            <div class="sec1">
+                <div class="imageflex1">
+                    <img src="../images/2.jpg" alt="grill" class="img1">
+                </div>
+                <div class="expflex1">
+                    <h3>1. Do We Need to Cook for Ourselves?</h3>
+                    <p>Yes and no. Some restaurants will have staff to do the cooking for you, but some don’t. If they don’t 
+                        provide a grilling service, you can simply grill for yourself. Don’t worry, the meat is served in an ‘easy-to-
+                        grill’ condition. If you are struggling, you can simply ask the server and they will show you how to grill it 
+                        properly. </p>
+                    <p>P.S. - Always feel free to ask the server to change the grill when it becomes too smoky.</p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div class="sec1">
+                <div class="imageflex1">
+                    <img src="../images/3.jpg" alt="side dishes" class="img1">
+                </div>
+                <div class="expflex1">
+                    <h3>2. Banchan and Side Dishes</h3>
+                    <p>Every Korean BBQ place will have Banchan and side dishes. Banchan is a complimentary selection of 
+                        vegetable side dishes that mysteriously arrive right after placing an order. Yes, they are free and you can
+                        ask for more. Every restaurant serves slightly different Banchans but mostly you will find fresh 
+                        lettuce, Kimchi, pickled leaves, Samjang sauce, and scallion salad.</p>
+                    <p>Unlike Banchan, side dishes will cost you money but it is highly recommended. Many people will usually 
+                        order a couple of side dishes with their choices of meat. The most famous side dishes are kimchi-jjigae 
+                        (stew), Doenjang-jjigae (stew), gyelanjjim (egg custard), naengmyeon (cold noodles), and fried rice.</p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div class="sec1">
+                <div class="imageflex1">
+                    <img src="../images/4.jpg" alt="Soju" class="img1">
+                </div>
+                <div class="expflex1">
+                    <h3>3. Enjoy with Soju</h3>
+                    <p>As mentioned earlier, Korean BBQ is all about the experience. If you want to fully experience an 
+                        authentic Korean vibe, try a bottle of Soju with your friends. Soju tastes like Vodka but much lighter. It 
+                        goes very well with Korean BBQ because it cleanses your palate.</p>
+                </div>
+            </div>
+        </article>
+    
+    <footer>
+        <hr> Jooho Lee
+            <div class= "button">
+                <form action="beefcuts.html">
+                    <button type="submit" data-inline="true">Popular Cuts BEEF</button>
+                </form>
+                <form action="porkcuts.html">
+                    <button type="submit">Popular Cuts PORK</button>
+                </form> 
+            </div>
+    </footer> 
+</html>

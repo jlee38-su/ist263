@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comfortaa&display=swap" rel="stylesheet">
+        <title>Beef Cuts</title>
+        <link rel="stylesheet" href="pjstyles.css">
+        <script>
+            function showNav() {
+                document.getElementById("nav").style.display = "block";
+            }
+            function hideNav() {
+                document.getElementById("nav").style.display = "none";
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div>
+                <img src="../images/menu.png" alt="drop down" id="micon" onclick="showNav();">
+            </div>
+            <div>
+                <p id="close" onclick="hideNav();">x</p>
+            </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <a href="home.html"><strong>Home: Korean BBQ</strong></a>
+            <a href="porkcuts.html"><strong>Popular Pork Cuts</strong></a>
+            <a href="beefcuts.html"><strong>Popular Beef Cuts</strong></a>
+        </nav>
+
+        <section>
+            <header>
+                <h1>Popular Beef Cuts</h1>
+            </header>
+
+            <article>
+                <div class="sec1">
+                    <div class="imageflex1">
+                        <img src="../images/8.jpg" alt="Beef Chuck Flap Tail" class="img1">
+                    </div>
+                    <div class="expflex1">
+                        <h3>1. Salchi Sal (살치살) - Beef Chuck Flap Tail</h3>
+                        <p>Chuck Flap Tail is one of the most famous cuts in Korea. It is famous for being the fattiest meat in Korean
+                        BBQ. The distinctive feature of this cut is that its marbling ratio is very high. Sometimes there is more fat
+                        than meat. This cut should be grilled until medium.</p>
+                    </div>
+                </div>
+            </article>
+    
+            <article>
+                <div class="sec2">
+                    <div class="expflex2">
+                        <img src="../images/9.jpg" alt="Beef Outside Skirt" class="img2">
+                    </div>
+                    <div class="imageflex2">
+                        <h3>2. An-Chang-Sal (안창살) - Beef Outside Skirt</h3>
+                        <p>Outside Skirt is one of the most expensive cuts in Korea due to its scarcity. It is famous for having a 
+                        beefy and flavorful taste. Due to its distinct flavor, this cut is not for everyone but it is highly 
+                        recommended to try. This cut should be grilled until medium-rare.</p>
+                    </div>
+                </div>
+            </article>
+    
+            <article>
+                <div class="sec1">
+                    <div class="imageflex1">
+                        <img src="../images/10.jpg" alt="Brisket" class="img1">
+                    </div>
+                    <div class="expflex1">
+                        <h3>3. Chadol-Baegi (차돌박이) - Brisket</h3>
+                        <p>Brisket is also famous in Korea and sometimes small portions of the cut are served as complimentary. 
+                        Brisket can be very chewy so it is served in very thin slices. Because it is so thin, you only have to grill 
+                        couple of seconds on each side.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+        <section>
+            <header>
+                <h1>Restaurant Recommendation</h1>
+            </header>
+            
+            <div class="resrec">
+                <div>
+                    <h3>Korea - Chang-go 43</h3>
+                    <div class="vid">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wYcuqDrI0oY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div>
+                    <h3>NewYork - COTE Korean Steakhouse</h3>
+                    <div class="vid">
+                        <iframe src="https://www.youtube.com/embed/cSmuNGunRZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="vid"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <hr> Jooho Lee
+            <div class= "button">
+                <form action="home.html">
+                    <button type="submit" data-inline="true">Home: Korean BBQ</button>
+                </form>
+                <form action="porkcuts.html">
+                    <button type="submit">Popular Cuts PORK</button>
+                </form> 
+            </div>
+        </footer>
+    </body>
+</html>
